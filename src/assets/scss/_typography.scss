@@ -1,0 +1,161 @@
+//font-weight
+.fw-bold {
+    font-weight: 700;
+}
+
+.fw-semi {
+    font-weight: 600;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-light {
+    font-weight: 300;
+}
+.fw-thin {
+    font-weight: 100;
+}
+
+//font-size
+
+.fs-20 {
+    font-size: 20px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+/*--
+    - Background color
+-----------------------------------------*/
+
+.grey-bg {
+    background: $grey;
+}
+.grey-bg2 {
+    background: $grey2;
+}
+
+.white-bg {
+    background: $white;
+}
+
+.black-bg {
+    background: $black;
+}
+
+.heding-bg {
+    background: $heding;
+}
+.heding-bg2 {
+    background: $heding2;
+}
+.heding-bg3 {
+    background: $heding3;
+}
+
+.theme-bg {
+    background: $theme-color;
+}
+.theme-bg2 {
+    background: $theme-color2;
+}
+
+.black-soft-bg {
+    background: $black-soft;
+}
+.violet-bg {
+    background: $violet;
+}
+
+/*--
+    - color
+-----------------------------------------*/
+.text-white {
+    color: $white;
+}
+.text-black {
+    color: $black;
+}
+.text-theme {
+    color: $theme-color;
+}
+.text-theme2 {
+    color: $theme-color2;
+}
+.text-body {
+    color: $body-text-color;
+}
+
+.text-heding {
+    color: $heding;
+}
+.text-heding2 {
+    color: $heding2;
+}
+.text-heding3 {
+    color: $heding3;
+}
+
+/*--
+    - fonts
+-----------------------------------------*/
+
+.body-font {
+    font-family: $dm-sans;
+}
+.heding-font {
+    font-family: $dm-sans;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.capitalize {
+    text-transform: lowercase;
+}
+
+//gradien-color
+.theme-gradient-1 {
+    background-image: linear-gradient(0deg, rgb(8, 106, 216) 0%, rgb(55, 140, 255) 100%);
+    background-image: linear-gradient(0deg, rgb(8, 106, 216) 0%, rgb(55, 140, 255) 100%);
+    background-image: linear-gradient(0deg, rgb(8, 106, 216) 0%, rgb(55, 140, 255) 100%);
+}
+.theme-gradient-2 {
+    background-image: linear-gradient(0deg, rgb(67, 186, 255) 0%, rgb(113, 65, 177) 100%);
+    background-image: linear-gradient(0deg, rgb(67, 186, 255) 0%, rgb(113, 65, 177) 100%);
+    background-image: linear-gradient(0deg, rgb(67, 186, 255) 0%, rgb(113, 65, 177) 100%);
+}
+
+//gradien-bg-color
+.theme-gradient-bg1 {
+    background-image: linear-gradient(0deg, rgb(8, 106, 216) 0%, rgb(55, 140, 255) 100%);
+    background-image: linear-gradient(0deg, rgb(8, 106, 216) 0%, rgb(55, 140, 255) 100%);
+    background-image: linear-gradient(0deg, rgb(8, 106, 216) 0%, rgb(55, 140, 255) 100%);
+}
+.theme-gradient-bg2 {
+    background-image: linear-gradient(100deg,#43baff 0%,#7141b1 100%);
+    background-image: linear-gradient(100deg,#43baff 0%,#7141b1 100%);
+    background-image: linear-gradient(100deg,#43baff 0%,#7141b1 100%);
+}

@@ -1,0 +1,143 @@
+//faq-que-list
+.faq-que-list {
+    .accordion-item {
+        border: 1px solid rgb(231, 231, 231);
+        background-color: transparent;
+        button:focus,
+        input:focus,
+        input:focus,
+        textarea,
+        textarea:focus {
+            outline: 0;
+        }
+        .accordion-button {
+            transition: unset;
+            color: $heding;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1;
+            border: 0;
+            background-color: transparent;
+            border-radius: 0;
+            padding: 21px 30px 19px 30px;
+            position: relative;
+            box-shadow: 0;
+            -webkit-transition: unset;
+            -moz-transition: unset;
+            -ms-transition: unset;
+            -o-transition: unset;
+            word-wrap: normal;
+            &.collapsed {
+                padding-bottom: 24px;
+            }
+            @media #{$md} {
+                padding: 21px 20px;
+                font-size: 18px;
+            }
+            @media #{$xs} {
+                padding: 21px 15px;
+                font-size: 18px;
+            }
+            &:not(.collapsed) {
+                color: unset;
+                background-color: unset;
+                box-shadow: unset;
+            }
+            &:focus {
+                box-shadow: none;
+                outline: 0;
+            }
+
+            &::before {
+                content: "\f068";
+                position: absolute;
+                font-family: "Font awesome 5 Pro";
+                font-size: 20px;
+                font-weight: 300;
+                color: $heding;
+                right: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 1;
+                @media #{$md} {
+                    right: 10px;
+                    font-size: 16px;
+                }
+                @media #{$xs} {
+                    right: 10px;
+                    font-size: 16px;
+                }
+            }
+            &::after {
+                display: none;
+            }
+        }
+        .collapsed {
+            border: 0;
+            &::before {
+                content: "\f067";
+            }
+        }
+        .accordion-body {
+            padding: 0;
+            padding: 0 30px 24px 30px;
+            @media #{$md} {
+                padding: 0 20px 24px 20px;
+            }
+            @media #{$xs} {
+                padding: 0 15px 24px 15px;
+            }
+        }
+    }
+}
+
+//faq-bg-area
+.faq-bg-area {
+    position: relative;
+    z-index: 1;
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: linear-gradient(0deg, rgb(8, 106, 216) 0%, rgb(55, 140, 255) 100%);
+        background-image: linear-gradient(0deg, rgb(8, 106, 216) 0%, rgb(55, 140, 255) 100%);
+        background-image: linear-gradient(0deg, rgb(8, 106, 216) 0%, rgb(55, 140, 255) 100%);
+        opacity: 0.941;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .faq-que-list {
+        .accordion-item {
+            border: 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            &:nth-child(1) {
+                border-top: 1px solid rgba(255, 255, 255, 0.2);
+            }
+            .accordion-button {
+                color: $white;
+                padding-left: 0;
+                padding-right: 0;
+                @media #{$xs} {
+                    padding-left: 0;
+                    padding-right: 15px;
+                }
+
+                &::before {
+                    color: $white;
+                    right: 0;
+                }
+            }
+            .accordion-body {
+                padding: 0 30px 20px 0;
+                @media #{$xs} {
+                    padding: 0 15px 20px 0;
+                }
+                p {
+                    color: rgba(255, 255, 255, 0.8);
+                }
+            }
+        }
+    }
+}

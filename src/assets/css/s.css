@@ -1,0 +1,36 @@
+.tot-list {
+    position: relative;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #D3D3D3;
+    font-weight: 700;
+    transition: left 0.3s ease, color 0.3s ease; /* Transition for left and color */
+    left: 0; /* Initial left position */
+  }
+  
+  .tot-list::before {
+    content: ""; /* Initially no content */
+    position: absolute;
+    left: -20px;
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.2s ease, color 0.2s ease; /* Transition for opacity and color */
+  }
+  
+  .tot-list:hover::before,
+  .tot-list:active::before {
+    color: #086ad8;
+    content: "->"; /* Show "->" prefix when hovered or active */
+    opacity: 1; /* Ensure it's visible */
+  }
+  
+  .tot-list:hover,
+  .tot-list:active {
+    text-decoration: none; /* Remove underline on hover */
+    color: #0062ff; /* Change text color */
+    left: 13px; /* Move text to the right */
+  }
+  
+  .service-btn {
+    display: inline-block; /* Ensure the button is displayed inline */
+  }
+  

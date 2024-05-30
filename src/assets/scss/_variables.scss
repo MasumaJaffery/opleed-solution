@@ -1,0 +1,37 @@
+// Font Family
+$dm-sans: "DM Sans", sans-serif;
+
+// Colors ---------------
+$white: #ffffff;
+$black: #000;
+$black-soft: #222222;
+$grey: #f7f7f7;
+$grey2: #f5f5f5;
+$green: #81b03f;
+$violet: #7141b1;
+$theme-color: #086ad8;
+$theme-color-dark: #085cbb;
+$theme-color3:#0c2168;
+$theme-color2: #43b9fe;
+$body-text-color: #777777;
+$body-text-color2: #999999;
+$body-text-color3: #a8b0ca;
+$hr-border-color: rgb(241, 241, 241);
+$low-light-color: rgb(210, 226, 255);
+
+// Heading Color
+$heding: #333333;
+$heding2: #141d38;
+$heding3: #0c2168;
+
+// Responsive Variables
+$xxl: "only screen and (min-width: 1601px) and (max-width: 1900px)";
+$xl: "only screen and (min-width: 1601px) and (max-width: 1800px)";
+$laptop: "only screen and (min-width: 1200px) and (max-width: 1600px)";
+$lg: "only screen and (min-width: 992px) and (max-width: 1200px)";
+$md: "only screen and (min-width: 768px) and (max-width: 991px)";
+$xs: "(max-width: 767px)";
+$sm: "only screen and (min-width: 576px) and (max-width: 767px)";
+
+//Landscape-responsive
+$xs-landscape: "only screen and (min-width: 540px) and (max-width: 767px) and (orientation: landscape)";

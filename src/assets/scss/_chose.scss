@@ -1,0 +1,35 @@
+//chose-box
+.chose-box {
+    padding: 24px 40px 28px 40px;
+    @media #{$lg} {
+        padding: 24px 20px 28px 20px;
+    }
+    @media #{$md} {
+        padding: 24px 15px 28px 15px;
+    }
+    @media #{$xs} {
+        padding: 24px 15px 28px 15px;
+    }
+    .chose-content {
+        @media #{$laptop} {
+            padding-right: 0;
+        }
+        @media #{$lg} {
+            padding-right: 0;
+        }
+        @media #{$md} {
+            padding-right: 0;
+        }
+        @media #{$xs} {
+            padding-right: 0;
+        }
+        p {
+            line-height: 1.6;
+            margin-top: 13px;
+        }
+    }
+    .number-text {
+        color: $theme-color;
+        font-size: 60px;
+    }
+}

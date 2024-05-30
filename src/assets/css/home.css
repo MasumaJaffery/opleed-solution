@@ -1,0 +1,34 @@
+/* Add your existing CSS here */
+
+/* Media query to hide the .arrow image on screens less than 768px wide */
+@media (max-width: 768px) {
+    .arrow {
+      display: none;
+    }
+    .about-img {
+      left: 4rem;
+      width: 70% !important;
+    }
+    #service .headings {
+      margin-top: 5rem;
+    }
+    .main-slider-area.home-7 .slider-bg-three .hero-section img {
+      margin: 0;
+      top: 0;
+      width: 112%;
+    }
+    .about {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 5rem;
+    }
+  }
+  @media (max-width: 986px) {
+    .sticky-menu {
+        height: 10vh;
+    }
+  }
+
+  .main-slider-area.home-7 .slider-bg-three .hero-section img {
+    width: 100%;
+  }

@@ -1,0 +1,77 @@
+//journey-box
+.journey-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 22px 60px;
+    @media #{$xs} {
+        display: block;
+        grid-gap: 22px 30px;
+    }
+    @media #{$sm} {
+        display: grid;
+        grid-gap: 22px 30px;
+    }
+}
+
+//timeline-box
+.right-content {
+    h2 {
+        color: $theme-color;
+        font-size: 80px;
+        margin-bottom: 19px;
+        @media #{$lg} {
+            font-size: 45px;
+        }
+        @media #{$md} {
+            font-size: 45px;
+        }
+        @media #{$xs} {
+            font-size: 35px;
+        }
+    }
+    p {
+        margin-bottom: 23px;
+    }
+
+    h4 {
+        font-size: 24px;
+        margin-bottom: 16px;
+        @media #{$lg} {
+            font-size: 18px;
+        }
+        @media #{$xs} {
+            font-size: 18px;
+        }
+    }
+    .read-more {
+        color: #999999;
+        font-size: 14px;
+        font-weight: 400;
+        &:hover {
+            color: $theme-color;
+        }
+    }
+}
+
+//left-content
+.left-content {
+    @media #{$lg} {
+        padding-right: 0;
+    }
+    @media #{$md} {
+        padding-right: 0;
+    }
+    @media #{$xs} {
+        padding-right: 0;
+        img {
+            width: 100%;
+        }
+    }
+    img {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+}
